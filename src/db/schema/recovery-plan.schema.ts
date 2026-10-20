@@ -1,7 +1,7 @@
 import { pgTable, uuid, text, varchar, timestamp, integer, jsonb, index, uniqueIndex } from "drizzle-orm/pg-core";
 import { relations } from "drizzle-orm/_relations";
 import { projects } from "./project.schema";
-import { user } from "./auth-schema";
+import { user } from "./auth.schema";
 import { recoveryPlanItems } from "./recovery-plan-item.schema";
 import { agentRuns } from "./agent-run.schema";
 

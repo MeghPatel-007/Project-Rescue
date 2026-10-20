@@ -1,5 +1,5 @@
-// Auth Schema (Better Auth)
-export * from "./auth-schema";
+// Auth Schema (Better Auth PostgreSQL)
+export * from "./auth.schema";
 
 // Workspace & GitHub Integration
 export * from "./workspace.schema";
@@ -21,7 +21,3 @@ export * from "./action-execution.schema";
 export * from "./agent-run.schema";
 export * from "./audit-event.schema";
 export * from "./github-delivery-event.schema";
-
-// Backwards compatibility for existing routes
-export * from "./user.schema";
-export * from "./twee.schema";

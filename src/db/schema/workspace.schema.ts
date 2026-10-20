@@ -1,6 +1,6 @@
 import { pgTable, uuid, varchar, text, timestamp, jsonb, index } from "drizzle-orm/pg-core";
 import { relations } from "drizzle-orm/_relations";
-import { user } from "./auth-schema";
+import { user } from "./auth.schema";
 import { workspaceMembers } from "./workspace-member.schema";
 import { githubInstallations } from "./github-installation.schema";
 import { projects } from "./project.schema";

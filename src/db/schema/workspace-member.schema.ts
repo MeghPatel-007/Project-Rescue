@@ -1,6 +1,6 @@
 import { pgTable, uuid, text, varchar, timestamp, uniqueIndex, index } from "drizzle-orm/pg-core";
 import { relations } from "drizzle-orm/_relations";
-import { user } from "./auth-schema";
+import { user } from "./auth.schema";
 import { workspaces } from "./workspace.schema";
 
 export const workspaceMembers = pgTable(

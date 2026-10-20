@@ -1,7 +1,7 @@
 import { pgTable, uuid, text, varchar, timestamp, bigint, jsonb, index, uniqueIndex } from "drizzle-orm/pg-core";
 import { relations } from "drizzle-orm/_relations";
 import { workspaces } from "./workspace.schema";
-import { user } from "./auth-schema";
+import { user } from "./auth.schema";
 import { projects } from "./project.schema";
 
 export const githubInstallations = pgTable(

@@ -2,7 +2,7 @@ import { pgTable, uuid, text, varchar, timestamp, jsonb, index } from "drizzle-o
 import { relations } from "drizzle-orm/_relations";
 import { workspaces } from "./workspace.schema";
 import { projects } from "./project.schema";
-import { user } from "./auth-schema";
+import { user } from "./auth.schema";
 
 export const auditEvents = pgTable(
   "audit_events",

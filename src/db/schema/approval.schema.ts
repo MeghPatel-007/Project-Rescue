@@ -1,7 +1,7 @@
 import { pgTable, uuid, text, varchar, timestamp, index } from "drizzle-orm/pg-core";
 import { relations } from "drizzle-orm/_relations";
 import { recoveryPlanItems } from "./recovery-plan-item.schema";
-import { user } from "./auth-schema";
+import { user } from "./auth.schema";
 import { actionExecutions } from "./action-execution.schema";
 
 export const approvals = pgTable(
